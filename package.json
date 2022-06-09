@@ -1,0 +1,28 @@
+{
+  "name": "crypto-pair-prices-calculator",
+  "version": "1.0.0",
+  "description": "calculate crypto pair prices for 5 crypto currency pairs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christian-pprogrammer/crypto-pair-prices-calculator.git"
+  },
+  "keywords": [
+    "crypto",
+    "pair",
+    "prices",
+    "calculator"
+  ],
+  "author": "MPANO Christian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christian-pprogrammer/crypto-pair-prices-calculator/issues"
+  },
+  "homepage": "https://github.com/Christian-pprogrammer/crypto-pair-prices-calculator#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
