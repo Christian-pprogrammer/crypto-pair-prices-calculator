@@ -1,5 +1,5 @@
 {
-  "name": "crypto-pair-prices-calculator",
+  "name": "crypto-calc",
   "version": "1.0.0",
   "description": "calculate crypto pair prices for 5 crypto currency pairs",
   "main": "index.js",
