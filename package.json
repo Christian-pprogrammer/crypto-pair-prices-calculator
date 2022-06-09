@@ -1,6 +1,6 @@
 {
   "name": "crypto-calc",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "calculate crypto pair prices for 5 crypto currency pairs",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,8 @@
     "crypto",
     "pair",
     "prices",
-    "calculator"
+    "calculator",
+    "crypto-calc"
   ],
   "author": "MPANO Christian",
   "license": "ISC",
