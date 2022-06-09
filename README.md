@@ -1,7 +1,7 @@
 # crypto-calc
 calculate crypto pair prices for 5 crypto pairs
 
-This package allows which assets can be traded(exchanged) between 5 crypto pairs.
+This package allows to calculate which assets can be traded(exchanged) between 5 crypto pairs.
 
 Currently, the supported crypto pairs are these
 1) BTC -> LTC
@@ -18,9 +18,10 @@ import { cryptoPairPrice } from 'crypto-calc';
 To call this function you have to pass 3 parameters (from, to, amount)
 **from**: this is the from asset of the pair forexample **BTC**
 **to**: this is the to asset of the pair forexample **LTC**
-**amount**: This is the amount of asset that you want to calculate(transfer) between the pair(you want to transfer from the first asset like BTC to second asset like LTC)
+**amount**: This is the amount that you want to calculate(transfer) from the first asset of pair to second asset of pair.
 
-The function is asynchronous. It should return the amount converted
+The function is asynchronous. It should return the amount converted or throw error which you have to catch and do whatever you want. Here i have logged erroro to the console.
+
 **example**
 ```
 import { cryptoPairPrice} from 'crypto-calc'
