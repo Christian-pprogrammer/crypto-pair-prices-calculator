@@ -38,4 +38,4 @@ calculate();
 ```
 
 **Practises for optimization**
-To optimize this code, I have used an external api which allows me to calculate from a given asset like BITCOIN(BTC) to USD. After converting all provided assets to USD, I was able to now calculate from one of the assets to another. **This API is realtime and whenever the value of any asset changes, It is also reflected in my code. This will allow me to always return most accurate values of the assets at any time in future.**
+To optimize this code, I have used an external api which allows me to calculate from a given asset like BITCOIN(BTC) to USD. After converting all provided assets to USD, I was able to now calculate from one of the assets to another. **This API is realtime and whenever the value of any asset changes, It is also reflected in my code. This will allow me to always return most accurate values of the assets at any time in future. The used api is (https://api.coinbase.com)**
